@@ -63,3 +63,16 @@
   --theme3-text-blue: hsl(198, 20%, 13%);
   --theme3-text-light: hsl(0, 100%, 100%);
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+#root {
+  min-height: 100vh;
+}

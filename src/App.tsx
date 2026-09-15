@@ -1,9 +1,7 @@
-import React from 'react'
+import Calc from './components/Calc'
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
+  return <Calc />
 }
 
 export default App
